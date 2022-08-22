@@ -1,4 +1,4 @@
-<img src=".\Assets\img\header.png"/>
+<img src=".\assets\img\header.png"/>
 
 ## Formulário QA web task
 ### Projeto desenvolvido para auxiliar na padronização de tasks no Jira atlassian
