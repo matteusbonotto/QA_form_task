@@ -1,6 +1,7 @@
 //Campos do formulario
 var campo_resumo = document.getElementById('resumo')
 const campo_prioridade = document.getElementById('prioridade')
+prioridade.value = "★★☆☆ Médio"
 var campo_ambiente_teste = document.getElementById('ambiente_teste')
 var campo_docUX = document.getElementById('docUX')
 var campo_QAmotivo = document.getElementById('QAmotivo')
@@ -127,7 +128,7 @@ function gerar_thread() {
   nivel_prioridade()
   var resultado = ""
     + greetingMessage() + "," + "\n"
-    + "[" + campo_issue.value + " - " + campo_resumo.value + "]"+ "(https:/" + "/shippd.atlassian.net/browse/STORES-" + campo_issue.value + ")" + "\n"
+    + "[STORES-" + campo_issue.value + " - " + campo_resumo.value + "]"+ "(https:/" + "/shippd.atlassian.net/browse/STORES-" + campo_issue.value + ")" + "\n"
     + " *Prioridade:* " + prioridade + "\n"
   campo_resutado.innerHTML = resultado
 }
